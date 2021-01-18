@@ -97,7 +97,7 @@ Resources:
       MemorySize: 256
       Timeout: 30
       ${VPC_CONFIG}
-      Environment:
+      Environment: 
         Variables:
           NODE_ENV: "production"
           APP_DATABASE_HOST: '${APP_DATABASE_HOST}'
